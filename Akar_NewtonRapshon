@@ -1,0 +1,48 @@
+📘 Pendekatan Akar Persamaan Menggunakan Newton-Raphson
+Deskripsi
+Project ini membahas implementasi Metode Newton-Raphson untuk melakukan pendekatan akar persamaan nonlinear secara numerik menggunakan Microsoft Excel.
+Metode Newton-Raphson digunakan untuk memperoleh solusi akar persamaan melalui proses iterasi berdasarkan nilai fungsi dan turunannya.
+
+Fungsi
+Fungsi Utama
+f(x)=x^3-2x^2+3x-1
+
+Parameter
+- Error relatif: 0.05%
+- Maksimum iterasi: 25
+- Nilai awal:
+x0=10
+
+Hasil Perhitungan
+| Iterasi | Xi | f(Xi) | Error Relatif |
+|---|---|---|---|
+| 1 | 4.39865 | 58.6053 | 127.343% |
+| 2 | 3.97254 | 42.0466 | 10.726% |
+| 3 | 2.89056 | 15.1126 | 37.432% |
+| 4 | 2.28346 | 7.3284 | 26.587% |
+| 5 | 1.71191 | 3.29145 | 33.387% |
+| 6 | 1.24591 | 1.56716 | 37.403% |
+| 7 | 0.82237 | 0.67069 | 51.502% |
+| 8 | 0.50550 | 0.13462 | 62.684% |
+| 9 | 0.42593 | -0.00780 | 18.681% |
+| 10 | 0.43027 | 0.00021 | 1.009% |
+| 11 | 0.43016 | 3.4E-07 | 0.026% |
+Hasil iterasi menunjukkan bahwa metode berhasil mencapai konvergensi karena error relatif telah lebih kecil dari batas toleransi 0.05%.
+
+Tujuan Project
+- Memahami metode Newton-Raphson
+- Menyelesaikan persamaan nonlinear secara numerik
+- Menganalisis konvergensi iterasi
+- Mengimplementasikan metode numerik menggunakan Excel
+
+Insight
+Metode Newton-Raphson mampu mendekati akar persamaan secara bertahap hingga menghasilkan error yang sangat kecil. Pemilihan nilai awal memengaruhi kecepatan konvergensi iterasi.
+
+Tools
+- Microsoft Excel
+- Metode Numerik
+
+Penutup
+Project ini merupakan latihan implementasi metode numerik untuk memahami proses iterasi dan pendekatan akar persamaan nonlinear menggunakan Metode Newton-Raphson.
+
+#MetodeNumerik #NewtonRaphson #Excel #NumericalMethod
